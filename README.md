@@ -7,5 +7,5 @@ details and save them locally. Events can be listed in the menu,
 edited, deleted and reminders can be set. The map function
 supports the search and marking of event locations. Particularly
 the integration of a public API, which gives users access to information about events in
-information about events in Germany, allowing them to plan their events efficiently and
+information about events in the USA, allowing them to plan their events efficiently and
 efficiently and discover new events.

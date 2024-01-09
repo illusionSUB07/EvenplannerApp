@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id= "@+id/Add"
+        android:title="Add an Event" />
+
+
+    <item
+        android:id= "@+id/Reminds"
+        android:title="Add a Remainder"/>
+
+
+    <item
+        android:id= "@+id/list"
+        android:title="Saved Events"/>
+
+
+    <item
+        android:id= "@+id/maps"
+        android:title="Open Maps"/>
+
+    <item
+        android:id= "@+id/events"
+        android:title="Events in US"/>
+</menu>

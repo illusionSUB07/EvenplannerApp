@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="please_enter_your_name_below">Please Enter your Name Below.</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddReminderActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Title"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edt_event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter event title"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Reminder Date and Time"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edt_reminder_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Click to select date and time"
+        android:inputType="none"
+        android:minHeight="48dp"
+        android:focusable="false"
+        android:clickable="true" />
+
+    <EditText
+        android:id="@+id/reminder_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter reminder text"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_submit_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Submit Reminder"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_test_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Notification" />
+
+</LinearLayout>
